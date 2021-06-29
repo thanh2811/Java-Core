@@ -1,0 +1,15 @@
+Hướng dẫn chạy thử trong cmd windows
+ - Bật cửa sổ cmd
+ - chuyển thư mục làm việc đến thư mục chứa file QLSV.jar
+ - gõ lệnh: java -jar QLSV.jar -dir=C:\data
+ - nhấn enter để chạy lệnh
+ 
+ Trong đó: C:\data là thư mục chứa file data
+ các file trong thư mục này lấy từ thư mục data được cho trong file đính kèm
+ 
+ * Đối với các máy chạy HDH cũ hơn win 10
+ thêm các tùy chọn -en để tránh lỗi không hiển thị được tiếng việt
+ cmd có thể không hỗ trợ hiển thị font Unicode khi đó phần kẻ bảng sẽ hiển thị các ký tự ?, gõ thêm tùy chọn -ascii để tắt hiển thị các ký tự Unicode
+ - gõ lệnh: java -jar QLSV.jar -en -ascii -dir=C:\data
+ - ấn enter để chạy
+ 
